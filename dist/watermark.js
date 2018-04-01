@@ -491,7 +491,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {String}
 	 */
 	function dataUrl(canvas) {
-	  return canvas.toDataURL();
+	  return canvas.toDataURL('image/jpeg');
 	}
 
 /***/ },
